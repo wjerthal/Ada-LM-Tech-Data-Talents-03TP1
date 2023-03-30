@@ -6,6 +6,7 @@ from projetos.calculadora import calcule
 
 from funcoes import soma
 from funcoes import subtracao
+from funcoes import multiplicacao
 
 while True:
     print('\nCaculadora:')
@@ -15,7 +16,7 @@ while True:
     print('            3) Multiplicação')
     print('            4) Divisão')
     print('            0) Sair')
-    opcao = input('Digite a sua opção: ')
+    opcao = input('\nDigite a sua opção: ')
     if opcao not in ('1', '2', '3', '4', '0'):        
         continue
     if opcao == '0':
@@ -37,5 +38,8 @@ while True:
         if opcao == '2':
             operacao = subtracao
             print(calcule(x,y,operacao))
+        if opcao == '3':
+            operacao = multiplicacao
+            print(calcule(x,y,operacao))       
         break
 print('Programa finalizado!!')

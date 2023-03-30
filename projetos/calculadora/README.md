@@ -15,10 +15,14 @@
 - 2o) melhoria da função soma
 
 ## branch subtracao
+- 1o) inserção no menu
+- 2o) criação da função subtração
 
 ## branch multiplicação
+- 1o) inserção no menu
+- 2o) criação da função multiplicação
 
-branch divisão
+## branch divisão
 
 
 
