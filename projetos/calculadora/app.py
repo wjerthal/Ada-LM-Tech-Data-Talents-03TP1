@@ -3,12 +3,11 @@ import sys
 sys.path.insert(0,os.getcwd())
 
 from projetos.calculadora import calcule
-from projetos.calculadora import calcule2
 
 from funcoes import soma
 
 while True:
-    print('Caculadora:')
+    print('\nCaculadora:')
     print('===========')
     print('            1) Soma')
     print('            2) Subtração')
@@ -33,6 +32,6 @@ while True:
             continue
         operacao = soma
         if opcao == '1':
-            calcule2(x,y,operacao)
-        calcule()
+            calcule(x,y,operacao)
+        break
 print('Programa finalizado!!')

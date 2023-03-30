@@ -1,9 +1,5 @@
 from funcoes import soma
 
-def  calcule():
-    a=1
-    b=2
-    print(soma(a,b))
-
-def  calcule2(a,b,operacao):
+def calcule(a,b,operacao):
+    print(operacao(a,b))
     return operacao(a,b)
