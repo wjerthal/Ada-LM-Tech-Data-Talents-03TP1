@@ -16,13 +16,14 @@
 
 ## branch subtracao
 - 1o) inserção no menu
-- 2o) criação da função subtração
+- 2o) criação da função subtracao
 
 ## branch multiplicação
 - 1o) inserção no menu
-- 2o) criação da função multiplicação
+- 2o) criação da função multiplicacao
 
 ## branch divisão
-
+- 1o) inserção no menu
+- 2o) criação da função divisao
 
 
