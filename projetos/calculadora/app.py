@@ -5,6 +5,7 @@ sys.path.insert(0,os.getcwd())
 from projetos.calculadora import calcule
 
 from funcoes import soma
+from funcoes import subtracao
 
 while True:
     print('\nCaculadora:')
@@ -30,8 +31,11 @@ while True:
         except:
             print('Número digitado inválido!')
             continue
-        operacao = soma
         if opcao == '1':
-            calcule(x,y,operacao)
+            operacao = soma
+            print(calcule(x,y,operacao))
+        if opcao == '2':
+            operacao = subtracao
+            print(calcule(x,y,operacao))
         break
 print('Programa finalizado!!')
